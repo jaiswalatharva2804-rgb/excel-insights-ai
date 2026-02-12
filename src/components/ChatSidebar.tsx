@@ -6,8 +6,8 @@ import {
   Settings,
   MessageSquare,
   Trash2,
-  Sparkles,
 } from "lucide-react";
+import databytelogo from "../assets/databyte-logo.png";
 
 interface ChatSession {
   id: string;
@@ -43,9 +43,11 @@ const ChatSidebar = ({
       {/* Logo */}
       <div className="p-5 border-b border-border">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl gradient-primary flex items-center justify-center shadow-lg">
-            <Sparkles className="w-5 h-5 text-primary-foreground" />
-          </div>
+          <img
+            src={databytelogo}
+            alt="DataByte logo"
+            className="w-10 h-10 object-contain"
+          />
           <div>
             <h1 className="text-lg font-bold gradient-text">ExcelMind</h1>
             <p className="text-xs text-muted-foreground">AI Analytics</p>

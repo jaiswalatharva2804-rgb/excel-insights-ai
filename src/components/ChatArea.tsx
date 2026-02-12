@@ -120,7 +120,7 @@ const WelcomeScreen = () => (
     >
       <Sparkles className="w-10 h-10 text-primary-foreground" />
     </motion.div>
-    <h2 className="text-3xl font-bold gradient-text mb-3">Welcome to ExcelMind</h2>
+    <h2 className="text-3xl font-bold gradient-text mb-3">Welcome to Excel Analytics Chatbot</h2>
     <p className="text-muted-foreground max-w-md mb-8">
       Upload an Excel file and ask me anything about your data. I'll provide insights, summaries, and calculations instantly.
     </p>

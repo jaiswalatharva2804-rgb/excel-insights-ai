@@ -49,7 +49,7 @@ const ChatSidebar = ({
             className="w-10 h-10 object-contain"
           />
           <div>
-            <h1 className="text-lg font-bold gradient-text">ExcelMind</h1>
+            <h1 className="text-lg font-bold gradient-text">Excel Analytics Chatbot</h1>
             <p className="text-xs text-muted-foreground">AI Analytics</p>
           </div>
         </div>
